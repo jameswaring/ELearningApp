@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="667c6f1a-13c3-4037-84a5-37f4a4c4e1ad" name="Herts" url="http://jose.cs.herts.ac.uk">
+        <fileTransfer host="jose.cs.herts.ac.uk" port="22" rootFolder="/cygdrive/c/Inetpub/wwwroot/jw17acs/public/app" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

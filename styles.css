@@ -1,0 +1,254 @@
+body{
+    background-color: #ff3c08;
+}
+h1 {
+    font-family: "Verdana", sans-serif;
+    display: inline-block;
+}
+img{
+    max-width:100%
+}
+.wrapper{
+    background-color: #DCE9FF;
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 125px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 5px;
+}
+.maintext {
+    font-family: "Arial", sans-serif;
+}
+.entryprompt{
+    width: 50px;
+}
+.menuwrap {
+    background-color: #ff3c08;
+    width: 1300px;
+    border-style: solid;
+    border-width: 2px;
+    overflow: auto;
+    padding-bottom: 10px;
+}
+.menuitem{
+    font-family: "Arial Narrow", sans-serif;
+    font-size: 16pt;
+    float: left;
+    width: 16%;
+    text-align: center;
+    color: #cccccc;
+}
+#menuitem:hover{
+    font-weight: bolder;
+}
+#chatholder{
+    width: 100%;
+    margin-bottom: 30px;
+    float: left;
+    clear: both;
+}
+#entrybox{
+    float:right;
+    margin-top: 10px;
+}
+.subtext{
+     font-family: "Verdana", sans-serif;
+     font-size: 18pt;
+     clear:both;
+ }
+.smallersubtext{
+    font-family: "Verdana", sans-serif;
+    font-size: 15pt;
+    clear:both;
+}
+.chatentry{
+    width: 75.5%;
+}
+#chatbox{
+    height:250px;
+    width:75.5%;
+    border:1px solid #ccc;
+    font:16px/26px Georgia, Garamond, Serif;
+    overflow:auto;
+    float: right;
+    background: ghostwhite;
+}
+#loggedin{
+    height:250px;
+    width:20%;
+    border:1px solid #ccc;
+    font:16px/26px Georgia, Garamond, Serif;
+    overflow:auto;
+    float: left;
+    background-color: ghostwhite;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #E25808;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+}
+.tab button:hover {
+    background-color: #ddd;
+}
+.tab button.active {
+    background-color: #ccc;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.qholder{
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+    width: 800px;
+    padding: 10px;
+}
+.formq{
+    font-family: Consolas, serif;
+}
+.quizimgwrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.lessonsub{
+    font-family: "Arial Narrow", sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+figcaption{
+    font-family: "Times New Roman", Serif;
+    font-style: italic;
+    font-size: 9pt;
+}
+ul.proglists{
+    list-style-type: circle;
+    font-family: "Calibri Light", sans-serif;
+    font-size: 11pt;
+}
+.hidden{
+    display: none;
+}
+.ansbox{
+    width: 350px;
+}
+.answerreadback{
+    font-family: "Calibri Light", sans-serif;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: ghostwhite;
+}
+.memberstats{
+    font-family: Consolas, Serif;
+    font-weight: bolder;
+    font-size: 20pt;
+    background: ghostwhite;
+    border-style: dot-dash;
+    border-width: 2px;
+    border-color: darkblue;
+    padding: 10px;
+}
+.loginborder{
+    background-color: ghostwhite;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 10px;
+    float: left;
+    height: 240px;
+    margin-right: 30px;
+}
+.loginholder{
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+.logintext{
+    font-family: "Arial", sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+}
+.clearer{
+    clear: both;
+}
+.gottable{
+    background-color: ghostwhite;
+    width: 100%;
+}
+.gottable td, collabtable th {
+    border: 1px solid #DCE9FF;
+    padding: 8px;
+}
+.gottable th{
+    font-family: Consolas, Serif;
+    font-size: 24pt;
+    text-align: center;
+}
+.gottable td{
+    font-family: "Arial Narrow", Serif;
+    font-size: 13pt;
+    width: 30%;
+}
+.collabtable{
+    background-color: ghostwhite;
+    width: 100%;
+}
+.collabtable td, collabtable th {
+    border: 1px solid #DCE9FF;
+    padding: 8px;
+}
+.collabtable th{
+    font-family: Consolas, Serif;
+    font-size: 18pt;
+    text-align: center;
+}
+.collabtable td{
+    font-family: "Arial Narrow", Serif;
+    font-size: 13pt;
+    width: 30%;
+}
+#errorgraded{
+    color: red;
+}
+#errortoprow{
+    color: red;
+}
+#errorknowoverview{
+    color: red;
+}
+#erpass{
+    color: red;
+}
+#eruser{
+    color: red;
+}
+#ernewpass{
+    color: red;
+}
+#ernewuser{
+    color: red;
+}
+#erpassconf{
+    color: red;
+}

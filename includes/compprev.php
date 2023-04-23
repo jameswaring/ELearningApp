@@ -1,0 +1,1 @@
+<p class="maintext">Please complete the previous sections of the course first</p>

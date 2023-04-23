@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="https://jose.cs.herts.ac.uk/mysql/index.php" uuid="1e4fef1b-2992-4f39-9f46-6841f2f22135">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jw17acs</user-name>
+      <introspection-schemas>*:</introspection-schemas>
+    </data-source>
+  </component>
+</project>
